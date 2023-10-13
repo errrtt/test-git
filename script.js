@@ -9,6 +9,8 @@
 
     // git clone ./testing testgit
     // git pull oringin main
+
+    // git config --global init.defaultBranch master
    
 */
 
