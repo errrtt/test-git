@@ -1,5 +1,5 @@
 /*
-    # git branch
+    # git branch and github
 
     // git branch --> to see how many branches you made 
     // git switch branchName --> to change branch to another
