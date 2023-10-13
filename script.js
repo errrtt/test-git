@@ -7,6 +7,8 @@
     // git branch branchName --> git switch branchName --> to make new branch
     // git switch -c branchName --> to make a new branch
 
+    // git clone ./testing testgit
+    // git pull oringin main
    
 */
 
