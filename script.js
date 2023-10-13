@@ -11,6 +11,8 @@
     // git pull oringin main
 
     // git config --global init.defaultBranch master
+
+    // git remote show origin --> to see the clone's  origin folder
    
 */
 
