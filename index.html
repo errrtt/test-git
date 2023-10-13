@@ -1,0 +1,45 @@
+<!-- 
+
+    // Working tree ==> staging area/index ==> commit history
+
+    git add . ==> to go to the staging area
+    git commit -m "content" ==> to go to the repository 
+    git status ==> to check the git 
+    git log ==> to see how many commits you did 
+    git checkout commitID
+
+    // To remove the error from stating area 
+        git restore stage . 
+        git resotre . 
+
+    // To remove the error from commit/repository
+        git reset --hard commitID / remove all the codes
+        git reset --mixed commitID / remove and go to the working tree again
+        git reset --smooth commitID / remove and go to the staging
+
+
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1></h1>
+    <br>
+    <input type="text">
+    <button>Click</button>
+
+    <script>
+        document.querySelector('button').onclick = () => {
+            let input = document.querySelector('input').value;
+            document.querySelector('h1').textContent = input;
+            document.querySelector('input').value = "";
+
+        }
+    </script>
+</body>
+</html>
